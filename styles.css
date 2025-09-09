@@ -1,0 +1,93 @@
+/* Reset de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #fafafa;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #444;
+  color: white;
+}
+
+.navbar .logo {
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ddd;
+}
+
+.btn-contact {
+  padding: 0.4rem 0.8rem;
+  background: #666;
+  border-radius: 5px;
+}
+
+.btn-contact:hover {
+  background: #555;
+}
+
+/* Hero Section */
+.hero {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f2dede;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Sections */
+.section {
+  min-height: 60vh;
+  padding: 3rem 2rem;
+  background: #f9caca;
+  border-top: 4px solid #aaa;
+  text-align: center;
+}
+
+.section:nth-child(even) {
+  background: #fcdcdc;
+}
+
+/* Footer */
+.footer {
+  background: #444;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
